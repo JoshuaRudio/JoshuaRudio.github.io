@@ -1,0 +1,95 @@
+body {
+	background-color: saddlebrown;
+	text-align: center;
+}
+
+img {
+	max-width: 25%;
+	height: auto;
+}
+
+.lists {
+	text-align: left;
+}
+
+.disclaimer {
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	font-variant: all-small-caps;
+}
+
+.header {
+	font-family: arial;
+	font-variant: small-caps;
+	font-size: 30px;
+	border: 10px groove;
+	border-color: firebrick;
+	border-radius: 15px;
+	background-image: url("images/sleeping.jpg");
+	color: darkgoldenrod;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+}
+
+.al-pic, .ed-pic {
+	border-radius: 50%;
+}
+
+.form {
+	border: 3px dashed;
+	border-color: darkgoldenrod;
+	background-color: maroon;
+	position: fixed;
+	padding: 8px;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	color: darkgoldenrod;
+	font-size: 100%;
+	font-family: helvetica;
+}
+
+h2, p, li {
+	font-family: arial;
+	color: darkgoldenrod;
+}
+
+#sleeping, #thanks {
+	background-color: saddlebrown;
+	text-align: center;
+	font-family: arial;
+}
+
+.sleeping-pic, .thanks-pic {
+	border-radius: 50%
+}
+
+.page-text {
+	font-family: helvetica;
+	color: darkgoldenrod;
+	border: 5px dashed;
+	border-color: darkgoldenrod;
+	background-color: firebrick;
+	padding: 10px;
+	margin: 10px;
+	width: 100%;
+}
+
+a:link {
+	color: yellow;
+}
+
+a:visited {
+	color: red;
+}
+
+a {
+	color: green;
+}
+
+#sleeping p, #thanks p {
+	font-style: italic;
+}
