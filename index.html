@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Ed and Al</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <nav>
-    <h1>Edward and Alphonse:</h1>
-    <h2>The Cat Brothers</h2>
-    <br>
-    <i>Disclaimer: This is <b>NOT</b> about the Elric brothers, made famous by the anime: Fullmetal Alchemist. This is about my two cats, named after the fictional sibilings.</i>
-    <br>
-    <h2>Alphonse</h2>
-      <img src="images/alphonse.jpg" alt="alphonse" width="300" height="425" />
+  <div class="container">
+    <div class="header">
+        <h1 class="title">Edward and Alphonse:</h1>
+        <span class="subtitle">The Cat Brothers</span>
+        <p class="disclaimer">Disclaimer: This is <b>NOT</b> about the Elric brothers, made famous by the anime: Fullmetal Alchemist. This is about my two cats, named after the fictional sibilings.</p>
+    </div>
+  <main id="content">
+    <div class="alphonse">
+      <h2>Alphonse</h2>
+        <img class="al-pic" src="images/alphonse.jpg" alt="alphonse">
         <p>Alphonse, the more timid of the two, is the younger brother. Although he is the timid one, he is the most vocal. He is the one who instigates all the meowing when they know it is time for them to eat. He does not as cuddly as Edward, but when he does, it is a definite sign of his affection.</p>
-    <h2>Edward</h2>
-      <img src="images/edward.jpg" alt="edward" width="300" height="425" />
-        <p>The alpha cat. Edward's favorite activity is showing his dominance over his younger brother in any scuffle they get into. Although he may not start their skirmishes, he <b>definitely finishes them</b> with pinning his brother down any chance he gets. Edward likes to cuddle with anyone and will purr loudly when he's petted.</p>
-    <h2>Funfacts:</h2>
+    </div>
+    <div class="edward">
+      <h2 class="ed">Edward</h2>
+      <img class="ed-pic" src="images/edward.jpg" alt="edward" width="300" height="425" />
+      <p>The alpha cat. Edward's favorite activity is showing his dominance over his younger brother in any scuffle they get into. Although he may not start their skirmishes, he <b>definitely finishes them</b> with pinning his brother down any chance he gets. Edward likes to cuddle with anyone and will purr loudly when he's petted.</p>
+    </div>
+    <div class="lists">
+      <h2>Funfacts:</h2>
       <ul>
         <li>Their favorite food is tuna and cheese</li>
         <li>Their favorite activity is <a href="sleeping.html">sleeping</a> and eating</li>
         <li>Their birthday is April 8th</li>
       </ul>
-    <h2>Rules when around the brothers:</h2>
+      <h2>Rules when around the brothers:</h2>
       <ol>
         <li>Always pet them when they approach you</li>
         <li>Never take their food away from them</li>
         <li>Have fun</li>
       </ol>
-    <form action="thanks.html" name="which cat" method="post">
-      <fieldset>
-        <div>
+    </div>
+  </main>
+    <div class="form">
+      <nav>
+      <form action="thanks.html" name="which cat" method="post">
+        <aside>
           <label>Which cat do you like more?</label>
           <select name="cat">
             <option value="alphonse">Alphonse</option>
             <option value="edward">Edward</option>
-          </select>
-        </div>
-      </fieldset>
-      <button type="submit">Submit</button>
-    </form>
+           </select>
+          <button type="submit">Submit</button>
+        </aside>
+      </form>
+      </nav>
+    </div>
     <p>I found <a href="https://mycatkyle.com">this</a> website to be good. There were a lot of things confusing. I found many layers and layers of the div element and spent a long time trying to find the main parts of the site. It looks like some of the styling was not all done via CSS because I can see, in the HTML, that some of the styling was written in there. This makes me curious and excited to learn CSS.</p>
-  </nav>
+    <br>
+  </div>
 </body>
 </html>
